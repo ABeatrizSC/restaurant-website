@@ -20,12 +20,21 @@ body {
     background-color: #FCFCFC;
 }
 
-h1 {
+h1 > span {
+    color: var(--green);
+}
+
+.h1__inicio {
+    font-weight: 800;
+    line-height: 70px;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 
-h1 > span {
-    color: var(--green);
+.h1__outrasSections {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -39,6 +48,10 @@ h2 {
 h3 {
     font-size: 23px;
     font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 p {
@@ -133,12 +146,6 @@ header {
     align-items: center;
 }
 
-.h1__inicio {
-    font-weight: 800;
-    line-height: 70px;
-    font-size: 50px;
-}
-
 .section-1 > div > p {
     font-weight: 600;
 }
@@ -186,11 +193,6 @@ header {
     height: 500px;
     margin: 60px 120px 0px 120px;
     text-align: center;
-}
-
-.h1__outrasSections {
-    font-weight: 700;
-    font-size: 45px;
 }
 
 .section-2__categories-container {
@@ -322,28 +324,57 @@ header {
 }
 
 .section-4 {
-    background-color: rgba(102, 51, 153, 0.274);
     height: fit-content;
-    margin: 60px 120px;
+    margin: 60px 110px;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 155px;
+
 }
 
 .section-4__image {
-    width: 468.749px;
-    height: 551px;
+    width: 488.749px;
+    height: 571px;
     margin-left: 30px;
 }
 
-.section-4__testimonials-container {
-    margin: 0px 90px;
-}
-
 .section-4__testimonials-container > h2 {
-    margin: 80px 0px;
+    margin: 80px 0px 40px 0px;
 }
 
 .section-4__testimonials-container > p {
-    font-size: 19px;
-    font-weight: 700;
+    width: 100%;
+    font-size: 20px;
     font-weight: 500;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0px 0px 0px;
+}
+
+.feedback-container > img {
+    width: 165px;
+    height: 75px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 10px;
+    margin: -10px 0px 0px 0px;
+}
+
+.reviews > p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section-5 {
+    background-color: rgba(127, 255, 212, 0.253);
 }
