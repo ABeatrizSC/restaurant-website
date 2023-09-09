@@ -42,7 +42,7 @@ h2 {
     color: #FF6868;
     letter-spacing: 3px;
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 h3 {
@@ -376,5 +376,42 @@ header {
 }
 
 .section-5 {
-    background-color: rgba(127, 255, 212, 0.253);
+    height: 600px;
+    margin: 0px 120px 0px 120px;
+    display: flex;
+}
+
+.section-5__culinary-journey-container > p {
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.section-5__services-container {
+
+}
+
+.box-services {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);  
+    width: 210px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-services > img {
+    width: 50px;
+    height: 50px;
+}
+
+.box-services > p {
+    color: #90BD95;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
 }
