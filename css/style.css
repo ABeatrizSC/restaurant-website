@@ -72,8 +72,8 @@ header {
 }
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 33px;
 }
 
 .header__navigation-list {
@@ -379,6 +379,13 @@ header {
     height: 600px;
     margin: 0px 120px 0px 120px;
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-5__culinary-journey-container {
+    width: fit-content;
+    height: fit-content;
 }
 
 .section-5__culinary-journey-container > p {
@@ -387,15 +394,21 @@ header {
 }
 
 .section-5__services-container {
-
+    width: fit-content; /* para ajustar com o padding */
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
 }
 
 .box-services {
     border-radius: 30px;
     background: #FFF;
     box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);  
-    width: 210px;
-    height: 230px;
+    width: 190px;
+    height: 210px;
+    padding: 16px 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -408,10 +421,47 @@ header {
     height: 50px;
 }
 
+.box-services > h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5FE26C;
+    text-transform: uppercase;
+}
 .box-services > p {
     color: #90BD95;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     line-height: normal;
     text-align: center;
+}
+
+footer {
+    height: fit-content;
+    margin: 60px 110px;
+}
+
+.footer__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: start;
+    justify-content: space-between; /* ?? */
+}
+
+.foodi-container {
+    width: 250px;
+}
+
+.navigation-footer {
+    width: fit-content;
+}
+
+.foodi-container > p {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.footer__copyright {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center
 }
