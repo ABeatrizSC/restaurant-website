@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
@@ -20,7 +21,7 @@ body {
     background-color: #FCFCFC;
 }
 
-h1 > span {
+.h1--green {
     color: var(--green);
 }
 
@@ -61,14 +62,15 @@ p {
 }
 
 header {
-    height: 600px;
-    background-color: #FCFCFC;
+    background-color: #FCFCFC; 
     font-family: 'Poppins', sans-serif;
-    height: 70px;
+    height: fit-content;
+    max-width: 100%;
+    padding: 39px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 26px 120px 26px 120px;
+    gap: 15px;
 }
 
 .logo {
@@ -77,10 +79,12 @@ header {
 }
 
 .header__navigation-list {
-    width: 450px;
+    width: fit-content;
+    height: fit-content;
+    min-width: 450px;
+    margin: 0px 20px;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
 }
 
 .header__navigation-list > li > a {
@@ -96,19 +100,21 @@ header {
     color: var(--green);
 }
 
-.header__buttons {
+.header__buttons-container {
+    width: fit-content;
+    height: fit-content;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.icon {
+.icons {
     width: 25px;
     height: 25px;
     cursor: pointer;
 } 
 
-.icon--search {
+.icons--search {
     margin-top: 7px;
 }
 
@@ -125,7 +131,7 @@ header {
     transform: scale(106%);
 }
 
-.header__button {
+.contact__button {
     font-weight: 500;
     width: fit-content;
     padding: 0px 15px;
@@ -133,7 +139,7 @@ header {
     gap: 10px;
 }
 
-.icon--phone {
+.icons--contact-phone {
     width: 18px;
     height: 18px;
 }
