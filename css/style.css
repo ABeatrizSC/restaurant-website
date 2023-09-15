@@ -34,7 +34,7 @@ h1 {
     font-weight: 800;
     line-height: 70px;
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .h1--green {
@@ -44,7 +44,6 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 45px;
-    margin-bottom: 30px;
 }
 
 h3 {
@@ -72,6 +71,7 @@ p {
 .description-paragraph {
     font-size: 20px;
     line-height: 30px;
+    margin-top: 30px;
 }
 
 .description-paragraph--smaller {
@@ -226,6 +226,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .categorie {
@@ -261,7 +262,6 @@ header {
 .section-3__container--title {
     width: 100%;
     height: 110px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -300,6 +300,7 @@ header {
 .section-3__container--menu {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .menu {
@@ -449,20 +450,25 @@ footer {
     width: 250px;
 }
 
-/* .foodi-container > p {
-    margin-top: 15px 0px 0px;
-} */
-
-.links-contact-container > ol > li {
-    margin: 15px 0px;
+.foodi-container > p {
+    margin-top: 10px;
+    line-height: 30px;
 }
 
-.footer-information {
+.blocks-container > ol > li {
+    margin: 20px 0px;
+}
+
+.blocks-container-text {
     color: var(--paragraph-color);
     font-weight: 500;
     font-size: 18px;
     font-weight: 500;
 }
+
+a.blocks-container-text:hover {
+    color: var(--green);
+}    
 
 .footer__copyright {
     height: fit-content;
@@ -472,7 +478,7 @@ footer {
     align-items: center;
     position: relative;
 }
- 
+
 .social-media-list {
     position: absolute;
     left: 0;
@@ -495,6 +501,10 @@ footer {
     align-items: center;
 }
 
+.social-media:hover {
+    transform: scale(107%);
+}
+
 .selected {
     background-color: var(--green);
 }
@@ -502,5 +512,4 @@ footer {
 .social-media > a > img {
     width: 22px;
     height: 22px;
-    
 }
