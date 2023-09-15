@@ -13,8 +13,8 @@
         <nav>
             <ul class="header__navigation-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Menu <img src="images/arrow.svg" alt=""></a></li>
-                <li><a href="#">Services <img src="images/arrow.svg" alt=""></a></li>
+                <li><a href="#menu">Menu <img src="images/arrow.svg" alt=""></a></li>
+                <li><a href="#services">Services <img src="images/arrow.svg" alt=""></a></li>
                 <li><a href="#">Offers</a></li>
             </ul>
         </nav>
@@ -22,7 +22,7 @@
         <div class="header__buttons-container">
             <img class="icons icons--search" src="images/search_icon.svg" alt="search icon">
             <img class="icons" src="images/shopping_bag_icon.svg" alt="">
-            <a class="button contact__button" href="#">
+            <a class="button contact__button" href="#contact-footer">
                 <img class="icons--contact-phone" src="images/phone_call_icon.svg" alt="phone icon">
                 Contact
             </a>
@@ -33,8 +33,8 @@
             <div>
                 <h1>Dive into Delights <br> Of Delectable <span class="h1--green">Food</span></h1>
                 <p class="description-paragraph">Where Each Plate Weaves a Story of Culinary <br> Mastery and Passionate Craftsmanship</p>
-                <div class="section-1__div--buttons">
-                    <a class="button main__button" href="">Order Now</a>
+                <div class="section-1__buttons-container">
+                    <a class="button main__buttons" href="#contact-footer">Order Now</a>
                     <p>Watch Video</p>
                     <div class="section-1__play-button">
                         <img src="images/play.svg" alt="">
@@ -73,7 +73,7 @@
         </section>
 
         <section class="section section-3">
-            <h3>Special Dishes</h3>
+            <h3 id="menu">Special Dishes</h3>
             <div class="section-3__container--title">
                 <h2>Standout Dishes <br> From Our Menu</h2>
                 <div class="section-3-arrows">
@@ -133,10 +133,10 @@
 
         <section class="section section-5">
             <div class="section-5__culinary-journey-container">
-                <h3>Our story & Services</h3>
+                <h3 id="services">Our story & Services</h3>
                 <h2>Our Culinary Journey <br> And Services</h2>
                 <p class="description-paragraph">Rooted in passion we curate unforgettable dining <br> experiences and offer exceptional services, <br> blending culinary artistry with warm hospitality.</p>
-                <a href="#" class="button main__button">Explore</a>
+                <a href="#" class="button main__buttons">Explore</a>
             </div>
 
             <div class="section-5__services-container">
@@ -163,47 +163,86 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer__links">
+    <footer id="contact-footer">
+        <div class="footer__blocks">
             <div class="foodi-container">
                 <img class="logo" src="images/logoFoodiPNG.png" alt="">
                 <p class="description-paragraph--smaller">Savor the artistry where every dish is a culinary masterpiece</p>
             </div>
-            <div class="navigation-footer">
+            <div class="links-contact-container">
                 <h5>Useful Links</h5>
                 <ol>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li>
+                        <a class="footer-information" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">Events</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">FAQ</a>
+                    </li>
                 </ol>
             </div>
-            <div class="navigation-footer">
-                <h5>Main Menu</5>
+            <div class="links-contact-container">
+                <h5>Main Menu</h5>
                 <ol>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Offers</a></li>
-                    <li><a href="#">Menus</a></li>
-                    <li><a href="#">Reservation</a></li>
+                    <li>
+                        <a class="footer-information" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">Offers</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">Menus</a>
+                    </li>
+                    <li>
+                        <a class="footer-information" href="#">Reservation</a>
+                    </li>
                 </ol>
             </div>
-            <div class="navigation-footer">
+            <div class="links-contact-container">
                 <h5>Contact Us</h5>
                 <ol>
-                    <li>example@email.com</li>
-                    <li>+64 958 248 966</li>
-                    <li>Our social media</li>
+                    <li class="footer-information">
+                        example@email.com
+                    </li>
+                    <li class="footer-information">
+                        +64 958 248 966
+                    </li>
+                    <li class="footer-information">
+                        Our social media
+                    </li>
                 </ol>
             </div>
         </div>
 
         <div class="footer__copyright">
-            <div class="social-media-container">
-                <img src="images/icon _facebook_.svg" alt="facebook-icon">
-                <img src="images/icon _instagram_.svg" alt="instagram-icon">
-                <img src="images/icon _twitter_.svg" alt="twitter-icon">
-                <img src="images/icon _youtube_.svg" alt="youtube-icon ">
+            <div>
+                <ul class="social-media-list">
+                    <li class="social-media selected">
+                        <a href="#">
+                            <img src="images/icon _facebook_.svg" alt="facebook-icon">
+                        </a>
+                    </li>
+                    <li class="social-media" >
+                        <a href="#">
+                            <img src="images/icon _instagram_.svg" alt="instagram-icon">
+                        </a>
+                    </li>
+                    <li class="social-media">
+                        <a href="#">
+                            <img src="images/icon _twitter_.svg" alt="twitter-icon">
+                        </a>
+                    </li>
+                    <li class="social-media">
+                        <a href="#">
+                            <img src="images/icon _youtube_.svg" alt="youtube-icon ">
+                        </a>
+                    </li>
+                </ul>
             </div>
             <p>Copyright &copy; 2023 Dscode | All rights reserved</p>
         </div>

@@ -21,7 +21,8 @@
     --paragraph-color: #555555;
     --text-services: #90BD95;
     --title-sevices: #5FE26C;
-    --arrows-color: #EFEFEF;
+    --background-arrows: #EFEFEF;
+    --background-social-media: #EDFFEF;
 }
 
 body {
@@ -161,50 +162,55 @@ header {
 }
 
 .section {
-    /* width barra de rolagem */
+    width: 100%;
     height: fit-content;
-    margin: 140px 120px 0px;
+    padding: 140px 120px 0px; 
 }
 
 .section-1 {
-    margin-top: 0px;
+    padding-top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-1__div--buttons {
-    margin-top: 50px;
+.section-1__buttons-container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.main__button {
+.main__buttons {
     font-size: 19px;
     font-weight: 500;
+    margin-top: 40px;
     width: 170px;
     height: 60px; 
 }
 
-.section-1__div--buttons > p {
+.section-1__buttons-container > p {
     font-size: 19px;
     font-weight: 700;
+    margin-top: 40px;
 }
 
 .section-1__play-button {
     background-color: var(--white);
-    width: 20px;
-    height: 20px; 
+    width: fit-content;
+    height: fit-content; 
     padding: 20px;
+    margin-top: 40px;
     border-radius: 100%;
     box-shadow: 6px 27px 34px rgba(0, 0, 0, 0.10);
-
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-1__play-button > img {
-    height: 22px;
-    width: 22px;
+    height: 19px;
+    width: 19px;
 }
 
 .section-1__image {
@@ -224,8 +230,10 @@ header {
 
 .categorie {
     background-color: var(--white);
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
     border-radius: 40px;
     box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.10);
     display: flex;
@@ -270,7 +278,7 @@ header {
 }
 
 .section-3-arrows--grey {
-    background-color: var(--arrows-color);
+    background-color: var(--background-arrows);
     width: 60px;
     height: 60px;
     border-radius: 100%;
@@ -382,7 +390,7 @@ header {
 }
 
 .section-5__services-container {
-    width: fit-content; /* para ajustar com o padding */
+    width: fit-content; 
     height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -394,8 +402,10 @@ header {
     border-radius: 30px;
     background: var(--white);
     box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);  
-    width: 212px;
-    height: 225px;
+    min-width: 212px;
+    max-width: 212px;
+    min-height: 225px;
+    max-height: 225px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -424,26 +434,73 @@ header {
 
 footer {
     height: fit-content;
-    margin: 60px 110px;
+    width: 100%;
+    padding: 140px 120px 30px;
 }
 
-.footer__links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: start;
-    justify-content: space-between; /* ?? */
+.footer__blocks{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .foodi-container {
     width: 250px;
 }
 
-.navigation-footer {
-    width: fit-content;
+/* .foodi-container > p {
+    margin-top: 15px 0px 0px;
+} */
+
+.links-contact-container > ol > li {
+    margin: 15px 0px;
+}
+
+.footer-information {
+    color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .footer__copyright {
+    height: fit-content;
     margin-top: 50px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ 
+.social-media-list {
+    position: absolute;
+    left: 0;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-media {
+    background-color: var(--background-social-media);
+    width: 43px;
+    height: 43px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color: var(--green);
+}
+
+.social-media > a > img {
+    width: 22px;
+    height: 22px;
+    
 }
