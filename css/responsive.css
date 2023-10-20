@@ -216,41 +216,123 @@
 
 /* Mobile */
 @media screen and (max-width: 425px) {  
+    /* MENU MOBILE */
+    header {
+        background-color: var(--background-color); 
+        font-family: 'Poppins', sans-serif;
+        height: fit-content;
+        width: 100vw;
+        padding: 0; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 33px;
+    }
+    
+    span.menuMobile {
+        display: block;
+    }
+
+    .header__navigation-list {
+        display: none;
+    }
+    
+    .header__navigation-list > li > a {
+        font-size: 17px;
+        color: var(--links);
+    }
+    
+    .header__navigation-list > li > a > img {
+        margin-left: 7px;
+        height: 8px;
+    }
+    
+    .header__buttons-container {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .icons {
+        display: none;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    } 
+    
+    .icons--search {
+        margin-top: 7px;
+    }
+    
+    .button {
+        color: var(--white);
+        background-color: var(--green);
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button:hover {
+        transform: scale(106%);
+    }
+    
+    .contact__button {
+        font-weight: 500;
+        width: fit-content;
+        padding: 0px 15px;
+        height: 45px;
+        gap: 10px;
+    }
+    
+    .icons--contact-phone {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* MENU MOBILE */
 
     h1 {
-        font-size: 75px;
-        line-height: 85px;
+        font-size: 40px;
+        line-height: 50px;
         text-align: center;
         margin-bottom: 0px;
     }
 
     h2 {
-        font-size: 60px;
+        font-size: 34px;
         text-align: center;
     }
 
     h3 {
-        font-size: 27px;
+        font-size: 17px;
         text-align: center;
     }
 
     h4 {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     h5 {
-        font-size: 37px;
+        font-size: 20px;
     }
 
     .description-paragraph {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 19px;
+        line-height: 30px;
         margin-top: 40px;
         text-align: center;
     }
 
     .description-paragraph--smaller {
-        font-size: 26px;
+        font-size: 17px;
     }
 
     .logo {
@@ -259,13 +341,13 @@
     }
     
     .main__buttons {
-        width: 210px;
-        height: 85px;
-        font-size: 26px; 
+        width: 140px;
+        height: 50px;
+        font-size: 18px; 
     }
 
     .section {
-        padding: 110px 0px 0px;
+        padding: 110px 20px 0px;
     }
 
     /* section 1 */
@@ -283,12 +365,12 @@
     }
 
     .section-1__buttons-container > p {
-        font-size: 24px;
+        font-size: 18px;
     }
     
     .section-1__play-button > img {
-        height: 29px;
-        width: 29px;
+        height: 19px;
+        width: 19px;
     }
     
     .section-1__image {
@@ -303,17 +385,17 @@
     }
     
     .categorie {
-        width: 450px;
-        height: 450px;
+        width: 300px;
+        height: 300px;
     }
     
     .categorie > img {
-        width: 263px;
-        height: 263px;
+        width: 163px;
+        height: 163px;
     }
     
     .categorie > p {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     /* section 3 */
@@ -337,27 +419,27 @@
     }
     
     .menu {
-        width: 450px;
-        height: 560px;
+        width: 300px;
+        height: 400px;
     }
     
     .menu > img {
-        width: 310px;
-        height: 310px;
+        width: 210px;
+        height: 210px;
     }
     
     .menu > p {
-        font-size: 28px;
+        font-size: 18px;
     }
     
     .price {
-        width: 93px;
-        height: 93px;
+        width: 73px;
+        height: 73px;
     }
     
     .stars {
-        width: 78px;
-        height: 78px;
+        width: 58px;
+        height: 58px;
     }
 
     /* section 4 */
@@ -378,8 +460,8 @@
     }
     
     .feedback-container > img {
-        width: 205px;
-        height: 95px;
+        width: 115px;
+        height: 65px;
     }
     
     /* section 5 */
@@ -392,10 +474,19 @@
     .section-5__culinary-journey-container > a {
         margin: 40px auto 60px;
     }
+
+    .section-5__services-container {
+        width: fit-content; 
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 70px;
+    }
     
     .box-services {
-        width: 400px;
-        height: 413px;
+        width: 300px;
+        height: 300px;
     }
     
     .box-services > img {
@@ -404,20 +495,21 @@
     }
     
     .box-services > h4 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .box-services > p {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     /* footer */
     footer {
-        padding: 110px 0px 0px;
+        padding: 110px 20px 0px;
     }
     
     .footer__blocks {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         gap: 30px;
     }
     
@@ -436,56 +528,42 @@
     }
 
     .blocks-container-text {
-        font-size: 30px;
+        font-size: 20px;
     }  
+
+    .blocks-container > h5 {
+        font-size: 25px;
+    }
 
     /* change */
     
     .footer__copyright {
+        position: static;
         height: fit-content;
-        margin-top: 50px;
+        margin-top: 30px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
+        gap: 40px;
     }
     
     .footer__copyright > p {
-        font-size: 18px;
+        font-size: 13px;
+        text-align: center;
     }
     
     .social-media-list {
-        position: absolute;
-        left: 0;
-        top: 0; 
-        bottom: 0;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
+        position: static;
     }
     
     .social-media {
-        background-color: var(--background-social-media);
-        width: 43px;
-        height: 43px;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-media:hover {
-        transform: scale(107%);
-    }
-    
-    .selected {
-        background-color: var(--green);
+        width: 53px;
+        height: 53px;
     }
     
     .social-media > a > img {
-        width: 22px;
-        height: 22px;
+        width: 24px;
+        height: 24px;
     }
 }
