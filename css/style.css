@@ -33,6 +33,10 @@ body {
     align-items: center;
 }
 
+main {
+    width: 100%;
+}
+
 h1 {
     font-weight: 800;
     line-height: 70px;
@@ -281,7 +285,7 @@ header {
     height: 17px;
 }
 
-.section-3-arrows--grey {
+.section-3-arrows--grey, .section-3-arrows--green {
     background-color: var(--background-arrows);
     width: 60px;
     height: 60px;
@@ -293,12 +297,6 @@ header {
 
 .section-3-arrows--green {
     background-color: var(--green);
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .section-3__container--menu {
@@ -386,7 +384,6 @@ header {
 .section-5 {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .section-5__culinary-journey-container {
