@@ -37,6 +37,10 @@ body, html {
 
 main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -92,7 +96,7 @@ header {
     font-family: 'Poppins', sans-serif;
     height: fit-content;
     width: 100%;
-    max-width: 2100px;
+    max-width: 1600px;
     padding: 39px 120px;
     display: flex;
     justify-content: space-between;
@@ -105,9 +109,14 @@ header {
     height: 33px;
 }
 
-span.menuMobile {
-    display: none;
-}
+/* menu mobile */
+/* .nav-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+} */
+/* menu mobile */
 
 .header__navigation-list {
     width: fit-content;
@@ -178,7 +187,7 @@ span.menuMobile {
 
 .section {
     width: 100%;
-    max-width: 2100px;
+    max-width: 1600px;
     height: fit-content;
     padding: 140px 120px 0px; 
 }
@@ -443,7 +452,7 @@ span.menuMobile {
 footer {
     height: fit-content;
     width: 100%;
-    max-width: 2100px;
+    max-width: 1600px;
     padding: 140px 120px 30px;
 }
 
