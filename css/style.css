@@ -45,7 +45,7 @@ main {
 
 h1 {
     font-weight: 800;
-    line-height: 70px;
+    line-height: 60px;
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -456,7 +456,7 @@ footer {
     padding: 140px 120px 30px;
 }
 
-.footer__blocks{
+.footer__blocks {
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -494,6 +494,7 @@ a.blocks-container-text:hover {
     justify-content: center;
     align-items: center;
     position: relative;
+    gap: 50px;
 }
 
 .footer__copyright > p {
