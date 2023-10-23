@@ -108,14 +108,15 @@ header {
     height: 33px;
 }
 
-/* menu mobile */
-/* .nav-mobile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-} */
-/* menu mobile */
+/* MENU MOBILE */
+a.btnMenu-close {
+    display: none;
+}
+
+.navMobile-opened {
+    display: none;
+}
+/* MENU MOBILE */
 
 .header__navigation-list {
     width: fit-content;
