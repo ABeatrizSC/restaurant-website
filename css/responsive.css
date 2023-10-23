@@ -403,25 +403,27 @@
 /* Mobile: Smartphones and tablets */
 @media screen and (max-width: 859px) {  
     /* MENU MOBILE */
-    a.btnMenu-close {
+    i.btnMenu-close {
         display: block;
         color: black;
+        cursor: pointer;
     }
     
-    a.btnMenu-close:hover {
+    i.btnMenu-close:hover {
         color: #39DB4A;
     }
     
-    a.btnMenu-close:active {
+    i.btnMenu-close:active {
         color: #39DB4A;
     }
     
-    a.btnMenu-open {
+    i.btnMenu-open {
         background-color: #39DB4A;
         padding: 10px 15px;
+        cursor: pointer;
     }
 
-    a.btnMenu-open:hover {
+    i.btnMenu-open:hover {
         color: white;
     }
 
@@ -454,12 +456,15 @@
         background-color: #55555518;
     }
 
-    .header__navigation-list--mobile > li > a {
+    i {
         color: black;
         width: 100%;
     }
 
-
+    .header__navigation-list--mobile > li > a {
+        color: black;
+        font-size: 16px;
+    }
     /* MENU MOBILE */
 
     .logo {
@@ -480,6 +485,7 @@
     }
     
     .contact__button {
+
         height: 40px;
         gap: 10px;
     }

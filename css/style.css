@@ -96,7 +96,7 @@ header {
     height: fit-content;
     width: 100%;
     max-width: 1600px;
-    padding: 39px 120px;
+    padding: 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +109,7 @@ header {
 }
 
 /* MENU MOBILE */
-a.btnMenu-close {
+i.btnMenu-close {
     display: none;
 }
 
