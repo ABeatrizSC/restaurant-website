@@ -401,6 +401,10 @@
 
 /* Mobile: Smartphones and tablets */
 @media screen and (max-width: 859px) {  
+    body {
+        overflow-x: hidden;
+    }
+
     /* MENU MOBILE */
     i.btnMenu-close {
         display: block;

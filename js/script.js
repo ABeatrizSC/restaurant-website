@@ -4,10 +4,10 @@ const menuOpen = document.querySelector('.btnMenu-open');
 
 menuClose.addEventListener('click', function(){
     menuOpenList.classList.add('open');
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflowY = 'hidden';
 })
 
 menuOpen.addEventListener('click', function(){
     menuOpenList.classList.remove('open');
-    document.body.style.overflow = 'visible';
+    document.body.style.overflowY = 'visible';
 })
