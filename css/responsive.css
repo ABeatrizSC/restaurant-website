@@ -397,7 +397,6 @@
     .footer__copyright > p {
         font-size: 16px;
     }
-    
 }
 
 /* Mobile: Smartphones and tablets */
@@ -468,8 +467,8 @@
     /* MENU MOBILE */
 
     .logo {
-     max-width: 75px;
-     max-height: 33px;
+        max-width: 75px;
+        max-height: 33px;
     }
 
     header {
@@ -522,7 +521,6 @@
 
     .description-paragraph {
         font-size: 19px;
-        line-height: 30px;
         margin-top: 40px;
         text-align: center;
     }
