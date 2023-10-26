@@ -284,8 +284,8 @@ i.btnMenu-close {
 
 .balloon {
     background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 19px 19px 16px 19px;
+    border: 2px solid transparent;
+    border-radius: 19px 19px 0px;
     width: 175px;
     height: fit-content;
     position: absolute;
@@ -301,11 +301,11 @@ i.btnMenu-close {
     height: 20px;
     position: absolute;
     background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 100% 70% 5px 0px;
+    border: 1px solid #fff;
+    border-radius: 100% 100% 4px 0px;
     bottom: 0;
     right: 0;
-    transform: translate(0px, 3px) rotate(9deg);
+    transform: translate(2px, 3px) rotate(8deg);
     display: block;
 }
 
@@ -461,7 +461,7 @@ i.btnMenu-close {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 155px;
+    gap: 150px;
 }
 
 .section-4__image-container {
@@ -471,7 +471,7 @@ i.btnMenu-close {
 }
 
 .section-4__image {
-    width: 488.749px;
+    width: 458.749px;
     height: 571px;
     margin-left: 30px;
 }
@@ -506,7 +506,7 @@ i.btnMenu-close {
 .balloon-text--chef {
     font-size: 16px;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     margin: 12px 15px;
 }
 

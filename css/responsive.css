@@ -723,6 +723,10 @@
     .section-4__image {
         display: none;
     }
+
+    .balloon--chef {
+        visibility: hidden;
+    }
     
     .feedback-container {
         justify-content: center;
