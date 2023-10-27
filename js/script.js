@@ -16,7 +16,7 @@ function onClickHeart(event) {
     const favoriteComplete = 'https://abeatrizsc.github.io/restaurant-website/images/favorite-complete.svg' 
     const favoriteIncomplete = 'https://abeatrizsc.github.io/restaurant-website/images/favorite.svg';
 
-    const selectedHeart = event.target; //target retorna o elemento que tu clicou
+    const selectedHeart = event.target; 
     
     if (selectedHeart.src == favoriteComplete) {
         selectedHeart.src = favoriteIncomplete;
