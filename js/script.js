@@ -1,14 +1,17 @@
-const menuOpenList = document.querySelector('.navMobile-open')
+const menuList = document.querySelector('.navMobile')
 const menuClose = document.querySelector('.btnMenu-close');
 const menuOpen = document.querySelector('.btnMenu-open');
 
+const heartList = Array.from(document.querySelectorAll('.menu-favorite img'));
+const heart = document.querySelector('.menu-favorite img');
+
 menuClose.addEventListener('click', function(){
-    menuOpenList.classList.add('open');
+    menuList.classList.add('open');
     document.body.style.overflowY = 'hidden';
 })
 
 menuOpen.addEventListener('click', function(){
-    menuOpenList.classList.remove('open');
+    menuList.classList.remove('open');
     document.body.style.overflowY = 'visible';
 })
 
@@ -25,10 +28,8 @@ function onClickHeart(event) {
     }
 }
 
-const heartList = Array.from(document.querySelectorAll('.menu-favorite img'));
 
 heartList.map(heartItem => {
     heartItem.addEventListener('click', onClickHeart);
 })
 
-const heart = document.querySelector('.menu-favorite img');
