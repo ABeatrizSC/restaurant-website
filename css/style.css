@@ -25,13 +25,14 @@
 }
 
 body, html {
-    width: 100%;
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 main {

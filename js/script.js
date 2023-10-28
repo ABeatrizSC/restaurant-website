@@ -8,11 +8,13 @@ const heart = document.querySelector('.menu-favorite img');
 menuClose.addEventListener('click', function(){
     menuList.classList.add('open');
     document.body.style.overflowY = 'hidden';
+    document.html.style.overflowY = 'hidden';
 })
 
 menuOpen.addEventListener('click', function(){
     menuList.classList.remove('open');
     document.body.style.overflowY = 'visible';
+    document.html.style.overflowY = 'visible';
 })
 
 function onClickHeart(event) {
