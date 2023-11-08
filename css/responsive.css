@@ -65,6 +65,10 @@
     .section-4__image-container {
         height: 490px;
     }
+    
+    .section-4__image-container--mobile {
+        display: none;
+    }
 
     .section-4__image {
         width: 388.749px;
@@ -214,6 +218,10 @@
 
     .section-4__image-container {
         height: 460px;
+    }
+
+    .section-4__image-container--mobile {
+        display: none;
     }
 
     .section-4__image {
@@ -432,6 +440,10 @@
 
     .section-4__image-container {
         height: 420px;
+    }
+
+    .section-4__image-container--mobile {
+        display: none;
     }
 
     .section-4__image {  
@@ -732,13 +744,17 @@
     .section-4__image-container {
         display: none;
     }
-    
-    .section-4__image {
-        display: none;
+
+    .section-4__image-container--mobile {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin: auto;
     }
 
-    .balloon--chef {
-        visibility: hidden;
+    .section-4__image {
+        width: 300px;
     }
     
     .feedback-container {

@@ -471,6 +471,10 @@ i.btnMenu-close {
     position: relative;
 }
 
+.section-4__image-container--mobile {
+    display: none;
+}
+
 .section-4__image {
     width: 458.749px;
     height: 571px;
