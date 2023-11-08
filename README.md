@@ -2,7 +2,7 @@
 
 <h2>📝Sobre</h2>
 <ul>
-  <li>Projeto criado com base no Figma <a href="https://www.figma.com/file/JFMnZNQv2FQsp1C1ikOkct/Restaurant-Website-UI-Template-(Community)?type=design&node-id=0%3A1&mode=design&t=vp7hxwbzIQkDx5YI-1" target="_blank">Restaurant Website</a>, onde transformei todo o layout/design em código utilizando HTML5, CSS3 e adicionei alguns detalhes com o JavaScript;</li>
+  <li>Projeto criado com base no Figma <a href="https://www.figma.com/proto/JFMnZNQv2FQsp1C1ikOkct/Restaurant-Website-UI-Template-(Community)?type=design&node-id=1-41&t=fewOMNUJl1GIxnTq-1&scaling=scale-down-width&page-id=0%3A1&mode=design" target="_blank">Restaurant Website</a>, onde transformei todo o layout/design em código utilizando HTML5, CSS3 e adicionei alguns detalhes com o JavaScript;</li>
   <li>Responsividade adaptada para diversos dispositivos.</li>
 </ul>
 
